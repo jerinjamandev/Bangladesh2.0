@@ -93,7 +93,7 @@ button {
 /* vishion section */
 
 .vishion {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .vishon-text-1 {
@@ -176,5 +176,185 @@ button {
     border: none;
     border-radius: 8px;
     background-color: #FFC239;
+
+}
+
+/* bangladesh 2.0 dr.yunus */
+
+.bng-2 {
+    border: 2px solid rgb(174, 170, 170);
+    border-radius: 16px;
+    background-color: #F1F1F3;
+    color: #0E0E0E;
+    margin-top: 50px;
+    padding: 15px 25px;
+}
+
+.bng-txt-3 {
+    color: #656363;
+}
+
+.bng-txt-2 {
+    color: #656363;
+}
+
+/* qus/ans */
+
+/* .qus-ans {
+
+    margin-top: 80px;
+}
+
+.qus-text {
+    font: bold;
+    font-size: 25px;
+} */
+
+
+
+/* recent-news section */
+
+.recent-sec {
+    margin-top: 60px;
+}
+
+.recent-text-1 {
+    font: bold;
+    font-size: 45px;
+
+}
+
+.recent-text-2 {
+    color: #656363;
+}
+
+.recent-news-parent {
+    background-color: #F1F1F3;
+    border-radius: 16px;
+    border: 2px solid rgb(152, 148, 148);
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 37px;
+    padding: 20px 30px;
+}
+
+.img {
+    border-radius: 8px;
+}
+
+.text-flex {
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+    color: #656363;
+}
+
+.recent-text-3 {
+    color: #656363;
+}
+
+.btn-primary-5 {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #F1F1F3;
+}
+
+
+/* recent news-2 */
+
+.recent-news-parent-2 {
+    background-color: #F1F1F3;
+    border-radius: 16px;
+    border: 2px solid rgb(152, 148, 148);
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 297px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+.img-2 {
+    border-radius: 8px;
+}
+
+
+/* Donate Today section */
+
+.Donate-Today {
+    margin-bottom: 100px;
+}
+
+.Donate-txt {
+    font: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Donate-txt-2 {
+    color: #656363;
+    text-align: center;
+}
+
+.Donate-parent {
+    display: flex;
+    gap: 20px;
+
+}
+
+.Donate-child-1 {
+    font-size: 30px;
+    background-color: #F1F1F3;
+    border: 2px solid rgb(178, 172, 172);
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+
+}
+
+.Donate-child-2 {
+    font-size: 30px;
+    background-color: #F1F1F3;
+    border: 2px solid rgb(178, 172, 172);
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+
+}
+
+.Donate-child-3 {
+    font-size: 30px;
+    background-color: #F1F1F3;
+    border: 2px solid rgb(178, 172, 172);
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+
+}
+
+.Donate-child-4 {
+    font-size: 30px;
+    background-color: #F1F1F3;
+    border: 2px solid rgb(178, 172, 172);
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+
+}
+
+.Donate-txt-3 {
+    width: 1032px;
+    height: 64px;
+    background-color: #F1F1F3;
+    border: 2px solid rgb(207, 198, 198);
+    text-align: center;
 
 }
