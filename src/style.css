@@ -1,0 +1,180 @@
+body {
+    margin: 24px 160px;
+    background-color: #F1F1F3;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 116px;
+    height: 52px;
+    color: #006A50;
+    text-align: center;
+    background-color: #F1F1F3;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.bangla {
+    font: bold;
+    width: 222px;
+    height: 38;
+    color: #0E0E0E;
+    font-size: 20px;
+}
+
+/* hero-section */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-top: 100px;
+    background-color: #a7d0c7;
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+
+.text-1 {
+    color: #635f5f;
+    font: bold;
+    font-size: 30px;
+
+}
+
+.text-2 {
+    font: bold;
+    font-size: 60px;
+}
+
+.btn-primary {
+    width: 220px;
+    height: 60px;
+    background-color: #006A50;
+    color: #F1F1F3;
+}
+
+
+/* pillars section */
+
+.pillers {
+    margin-top: 60px;
+}
+
+.pillars-parents {
+    display: flex;
+    gap: 45px;
+}
+
+.piller-text-1 {
+    font: bold;
+    font-size: 40px;
+}
+
+.pillars-child-1 {
+    width: 370px;
+    height: 244px;
+    padding: 25px 25px;
+    border: 2px solid rgb(222, 216, 216);
+    border-radius: 16px;
+    background-color: #F1F1F3;
+    color: black;
+}
+
+.pilrs-txt-3 {
+    color: #656363;
+}
+
+
+/* vishion section */
+
+.vishion {
+    margin-top: 80px;
+}
+
+.vishon-text-1 {
+    font-size: 40px;
+    font: bold;
+}
+
+.vishion-para {
+    font-size: 20px;
+    font: bold;
+    color: #656363;
+}
+
+.vishion-parents {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+.vishion-child {
+    background-color: #7ca6ed;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 280px;
+    width: 535px;
+
+}
+
+.vishion-text-2 {
+    font: bold;
+
+}
+
+.vishion-text-3 {
+    color: #424040;
+}
+
+.btn-primary-2 {
+    width: 122px;
+    min-height: 41px;
+    background-color: #1a66e8;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+}
+
+.vishion-child-2 {
+    background-color: #80c5a6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 280px;
+    width: 535px;
+}
+
+.btn-primary-3 {
+    width: 122px;
+    min-height: 41px;
+    background-color: #1a66e8;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+}
+
+.vishion-child-3 {
+    background-color: #ecd9ac;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 280px;
+    width: 535px;
+}
+
+.btn-primary-4 {
+    width: 122px;
+    min-height: 41px;
+    background-color: #1a66e8;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFC239;
+
+}
