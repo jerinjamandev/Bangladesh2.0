@@ -23,7 +23,7 @@ button {
 
 button:hover {
     background-color: #bfe4c8;
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
 }
 
 .bangla {
@@ -69,7 +69,7 @@ button:hover {
 
 .btn-primary:hover {
     background-color: #218838;
-    transform: scale(0.5);
+    /* transform: scale(0.5); */
 }
 
 /* pillars section */
@@ -102,7 +102,7 @@ button:hover {
 
 .pillars-child-1:hover {
     background-color: #d4edda;
-    transform: scale(0.5);
+    /* transform: scale(0.5); */
 }
 
 .pilrs-txt-3 {
@@ -141,7 +141,13 @@ button:hover {
     padding: 10px 20px;
     height: 280px;
     width: 535px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
+}
+
+.vishion-child:hover {
+    background-color: #d4edda;
+    /* transform: scale(1.05); */
 }
 
 .vishion-text-2 {
@@ -168,6 +174,13 @@ button:hover {
     padding: 10px 20px;
     height: 280px;
     width: 535px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.vishion-child-2:hover {
+    background-color: #d4edda;
+    /* transform: scale(1.05); */
+
 }
 
 .btn-primary-3 {
@@ -186,6 +199,12 @@ button:hover {
     padding: 10px 20px;
     height: 280px;
     width: 535px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.vishion-child-3:hover {
+    background-color: #d4edda;
+    /* transform: scale(1.05); */
 }
 
 .btn-primary-4 {
@@ -260,6 +279,12 @@ button:hover {
 
 .img {
     border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.img:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
 }
 
 .text-flex {
@@ -300,7 +325,15 @@ button:hover {
 
 .img-2 {
     border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
+
+.img-2:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+}
+
 
 
 /* Donate Today section */
@@ -447,4 +480,89 @@ button:hover {
 .btn-primary-6:hover {
     background-color: #218838;
     transform: scale(1.05);
+}
+
+
+/* subscribe-section */
+
+.subscribe-container {
+    width: 1280px;
+    height: 395px;
+    border: 2px solid rgb(149, 143, 143);
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.subs-txt-1 {
+    font: bold;
+    font-size: 40px;
+}
+
+.subs-txt-2 {
+    font-size: 20px;
+    color: #656363;
+}
+
+.subs-txt-3 {
+    color: #656363;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-btn {
+    display: flex;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 350px;
+}
+
+
+.input-btn input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-btn input::placeholder {
+    color: #999;
+}
+
+.input-btn button {
+    background-color: #006400;
+    /* Dark green */
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-btn button:hover {
+    background-color: #004d00;
+    /* Darker green on hover */
+}
+
+
+/* lst section */
+
+.lst-sec {
+    margin-top: 80px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font: bold;
+}
+
+img {
+    margin: 5px 10px;
 }
