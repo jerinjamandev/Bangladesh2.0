@@ -17,6 +17,13 @@ button {
     border: 2px solid #006A50;
     border-radius: 8px;
     font-size: 18px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+}
+
+button:hover {
+    background-color: #bfe4c8;
+    transform: scale(1.5);
 }
 
 .bangla {
@@ -56,8 +63,14 @@ button {
     height: 60px;
     background-color: #006A50;
     color: #F1F1F3;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
 }
 
+.btn-primary:hover {
+    background-color: #218838;
+    transform: scale(0.5);
+}
 
 /* pillars section */
 
@@ -83,6 +96,13 @@ button {
     border-radius: 16px;
     background-color: #F1F1F3;
     color: black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.pillars-child-1:hover {
+    background-color: #d4edda;
+    transform: scale(0.5);
 }
 
 .pilrs-txt-3 {
@@ -303,6 +323,8 @@ button {
 .Donate-parent {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -314,6 +336,14 @@ button {
     height: 128px;
     text-align: center;
     margin: 30px 30px;
+    /* cursor: pointer; */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Donate-child-1:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
 
 }
 
@@ -325,8 +355,19 @@ button {
     height: 128px;
     text-align: center;
     margin: 30px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
+
+.Donate-child-2:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+
+}
+
+/* .Donate-child-2.active {
+    background-color: #6bdc85;
+} */
 
 .Donate-child-3 {
     font-size: 30px;
@@ -336,7 +377,13 @@ button {
     height: 128px;
     text-align: center;
     margin: 30px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
+}
+
+.Donate-child-3:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
 }
 
 .Donate-child-4 {
@@ -347,7 +394,13 @@ button {
     height: 128px;
     text-align: center;
     margin: 30px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
+}
+
+.Donate-child-4:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
 }
 
 .Donate-txt-3 {
@@ -356,5 +409,42 @@ button {
     background-color: #F1F1F3;
     border: 2px solid rgb(207, 198, 198);
     text-align: center;
+    margin-left: 30px;
+    margin-left: 30px;
 
+}
+
+.input-txt {
+    margin-bottom: 20px;
+    margin-left: 140px;
+    /* margin-right: 40px; */
+}
+
+.input-txt input {
+    width: 1050px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-primary-6 {
+    margin-left: 600px;
+    width: 151px;
+    height: 56px;
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 10pxpx;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary-6:hover {
+    background-color: #218838;
+    transform: scale(1.05);
 }
