@@ -248,7 +248,7 @@ button:hover {
 .bng-2 img {
     position: absolute;
     top: 0px;
-    left: 15px;
+    left: 27px;
 }
 
 .bng-txt-3 {
@@ -295,9 +295,10 @@ button:hover {
     border: 2px solid rgb(152, 148, 148);
     display: flex;
     align-items: center;
-    gap: 37px;
-    padding: 20px 30px;
+    gap: 30px;
+    padding: 25px;
 }
+
 
 .img {
     border-radius: 8px;
@@ -341,11 +342,8 @@ button:hover {
     border: 2px solid rgb(152, 148, 148);
     display: flex;
     align-items: center;
-    gap: 297px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
+    gap: 225px;
+    padding: 25px;
 
 }
 
@@ -490,13 +488,19 @@ button:hover {
     font-size: 20px;
 }
 
+.donate-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .btn-primary-6 {
-    margin-left: 600px;
     width: 151px;
     height: 56px;
     text-align: center;
     padding: 12px 25px;
-    font-size: 10pxpx;
+    font-size: 20px;
     color: #fff;
     background-color: #2d6039;
     border: none;
@@ -512,6 +516,12 @@ button:hover {
 
 
 /* subscribe-section */
+
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .subscribe-container {
     width: 1280px;
