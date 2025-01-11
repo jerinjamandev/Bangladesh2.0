@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 body {
     margin: 24px 160px;
     background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
 }
 
 .nav {
@@ -9,7 +14,7 @@ body {
 }
 
 button {
-    width: 116px;
+    width: 150px;
     height: 52px;
     color: #006A50;
     text-align: center;
@@ -40,7 +45,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     gap: 90px;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: #a7d0c7;
     border-radius: 24px;
     padding: 50px 80px;
@@ -59,17 +64,19 @@ button:hover {
 }
 
 .btn-primary {
-    width: 220px;
+    width: 250px;
     height: 60px;
     background-color: #006A50;
     color: #F1F1F3;
+    cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
 
 }
 
 .btn-primary:hover {
     background-color: #218838;
-    /* transform: scale(0.5); */
+    border: none;
+
 }
 
 /* pillars section */
@@ -85,7 +92,11 @@ button:hover {
 
 .piller-text-1 {
     font: bold;
-    font-size: 40px;
+    font-size: 50px;
+}
+
+.pilrs-txt-2 {
+    font-size: 20px;
 }
 
 .pillars-child-1 {
@@ -94,7 +105,7 @@ button:hover {
     padding: 25px 25px;
     border: 2px solid rgb(222, 216, 216);
     border-radius: 16px;
-    background-color: #F1F1F3;
+    background-color: white;
     color: black;
     transition: background-color 0.3s ease, transform 0.3s ease;
 
@@ -113,11 +124,11 @@ button:hover {
 /* vishion section */
 
 .vishion {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .vishon-text-1 {
-    font-size: 40px;
+    font-size: 50px;
     font: bold;
 }
 
@@ -128,12 +139,14 @@ button:hover {
 }
 
 .vishion-parents {
+
     display: flex;
-    gap: 50px;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
-
-
-
 
 .vishion-child {
     background-color: #7ca6ed;
@@ -141,13 +154,7 @@ button:hover {
     padding: 10px 20px;
     height: 280px;
     width: 535px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 
-}
-
-.vishion-child:hover {
-    background-color: #d4edda;
-    /* transform: scale(1.05); */
 }
 
 .vishion-text-2 {
@@ -168,18 +175,16 @@ button:hover {
     border-radius: 8px;
 }
 
+.btn-primary-2:hover {
+    color: #0E0E0E;
+}
+
 .vishion-child-2 {
     background-color: #80c5a6;
     border-radius: 10px;
     padding: 10px 20px;
     height: 280px;
     width: 535px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.vishion-child-2:hover {
-    background-color: #d4edda;
-    /* transform: scale(1.05); */
 
 }
 
@@ -193,19 +198,23 @@ button:hover {
     background-color: #006A50;
 }
 
+.btn-primary-3:hover {
+    color: #0E0E0E;
+}
+
+
+
+
 .vishion-child-3 {
     background-color: #ecd9ac;
     border-radius: 10px;
     padding: 10px 20px;
     height: 280px;
     width: 535px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.vishion-child-3:hover {
-    background-color: #d4edda;
-    /* transform: scale(1.05); */
-}
+
+
 
 .btn-primary-4 {
     width: 122px;
@@ -218,15 +227,26 @@ button:hover {
 
 }
 
+.btn-primary-4:hover {
+    color: #0E0E0E;
+}
+
 /* bangladesh 2.0 dr.yunus */
 
 .bng-2 {
     border: 2px solid rgb(174, 170, 170);
     border-radius: 16px;
-    background-color: #F1F1F3;
+    background-color: white;
     color: #0E0E0E;
     margin-top: 50px;
     padding: 15px 25px;
+    position: relative;
+}
+
+.bng-2 img {
+    position: absolute;
+    top: 0px;
+    left: 15px;
 }
 
 .bng-txt-3 {
@@ -268,11 +288,11 @@ button:hover {
 }
 
 .recent-news-parent {
-    background-color: #F1F1F3;
+    background-color: white;
     border-radius: 16px;
     border: 2px solid rgb(152, 148, 148);
     display: flex;
-    /* justify-content: space-around; */
+    align-items: center;
     gap: 37px;
     padding: 20px 30px;
 }
@@ -306,19 +326,23 @@ button:hover {
     color: #F1F1F3;
 }
 
+.btn-primary-5:hover {
+    color: #0E0E0E;
+}
+
 
 /* recent news-2 */
 
 .recent-news-parent-2 {
-    background-color: #F1F1F3;
+    background-color: white;
     border-radius: 16px;
     border: 2px solid rgb(152, 148, 148);
     display: flex;
-    /* justify-content: space-around; */
+    align-items: center;
     gap: 297px;
     padding-top: 20px;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 30px;
     padding-bottom: 20px;
 
 }
@@ -363,8 +387,9 @@ button:hover {
 
 .Donate-child-1 {
     font-size: 30px;
-    background-color: #F1F1F3;
-    border: 2px solid rgb(178, 172, 172);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #656363;
     width: 240px;
     height: 128px;
     text-align: center;
@@ -382,8 +407,9 @@ button:hover {
 
 .Donate-child-2 {
     font-size: 30px;
-    background-color: #F1F1F3;
-    border: 2px solid rgb(178, 172, 172);
+    background-color: #80c5a6;
+    border-radius: 10px;
+    box-shadow: #656363;
     width: 240px;
     height: 128px;
     text-align: center;
@@ -392,20 +418,11 @@ button:hover {
 
 }
 
-.Donate-child-2:hover {
-    background-color: #d4edda;
-    transform: scale(1.05);
-
-}
-
-/* .Donate-child-2.active {
-    background-color: #6bdc85;
-} */
-
 .Donate-child-3 {
     font-size: 30px;
-    background-color: #F1F1F3;
-    border: 2px solid rgb(178, 172, 172);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #656363;
     width: 240px;
     height: 128px;
     text-align: center;
@@ -421,8 +438,9 @@ button:hover {
 
 .Donate-child-4 {
     font-size: 30px;
-    background-color: #F1F1F3;
-    border: 2px solid rgb(178, 172, 172);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #656363;
     width: 240px;
     height: 128px;
     text-align: center;
@@ -450,16 +468,22 @@ button:hover {
 .input-txt {
     margin-bottom: 20px;
     margin-left: 140px;
-    /* margin-right: 40px; */
 }
 
 .input-txt input {
     width: 1050px;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: none;
+    box-shadow: #656363;
+    background-color: white;
+    border-radius: 10px;
     font-size: 25px;
     text-align: center;
+}
+
+.input-txt ::placeholder {
+    color: #656363;
+    font-size: 20px;
 }
 
 .btn-primary-6 {
@@ -470,7 +494,7 @@ button:hover {
     padding: 12px 25px;
     font-size: 10pxpx;
     color: #fff;
-    background-color: #28a745;
+    background-color: #2d6039;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -515,19 +539,23 @@ button:hover {
     display: flex;
     width: 500px;
     max-width: 90%;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: #656363;
     margin-left: 350px;
 }
 
 
 .input-btn input {
-    flex: 1;
+    width: 600px;
     padding: 15px;
     border: none;
+    font-size: 15px;
+}
+
+.input-btn input:focus {
     outline: none;
-    font-size: 1rem;
+    border: none;
 }
 
 .input-btn input::placeholder {
@@ -536,18 +564,20 @@ button:hover {
 
 .input-btn button {
     background-color: #006400;
-    /* Dark green */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     color: #fff;
     border: none;
     padding: 15px 25px;
-    font-size: 1rem;
+    font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .input-btn button:hover {
-    background-color: #004d00;
-    /* Darker green on hover */
+    background-color: #006A50;
+    color: #F1F1F3;
+
 }
 
 
